@@ -46,8 +46,8 @@ public class MemberController {
 							.mid(1).name("Brian").email("brian@human.com")
 							.build();
 		log.info(member.toString());
-	      
-	      return member.toString();
+		
+		return member.toString();
 	}
 	
 	
