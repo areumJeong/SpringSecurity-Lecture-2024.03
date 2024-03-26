@@ -10,8 +10,8 @@
 				success: function(jsonUser) {
 					let user = JSON.parse(jsonUser);
 					$('#imgSrc').attr({src: user.picture});
-					$('#suid').val(user.suid);
 					$('#uid').val(user.uid);
+					$('#uid2').val(user.uid);
 					$('#hashedPwd').val(user.pwd);
 					$('#uname').val(user.uname);
 					$('#email').val(user.email);
